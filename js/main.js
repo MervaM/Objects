@@ -59,7 +59,9 @@ let timeAndGasoline = function() {
     console.log(time);
     alert(`In General: if we will drive ${userDistance} km we will spend ${gasoline} liters of gasoline and ${time} hours (after each 4 hours we need 1 hour of rest ;) )`);
 }
-timeAndGasoline();
+// timeAndGasoline();
 
 let btnMath = document.querySelector('#btn_matn');
 btnMath.addEventListener('click', timeAndGasoline);
+
+
